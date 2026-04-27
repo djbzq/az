@@ -13,3 +13,8 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 
 
 curl -L https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.sh -o agent.sh && chmod +x agent.sh && env NZ_SERVER=aip.nanguacloud.com:8008 NZ_TLS=false NZ_CLIENT_SECRET=lwQTc2aPfqQBPuj6FVRLb32cgpsda5g8 NZ_UUID=6fceb9d2-59cd-487c-db50-4458dcdad940 ./agent.sh
+
+# 等待 30 秒并重启
+echo "安装完成，系统将在 30 秒后重启..."
+sleep 30
+reboot
