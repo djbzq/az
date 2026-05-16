@@ -15,7 +15,4 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/hk1d.sh && bash hk1d.sh
 
 
-# 等待 30 秒并重启
-echo "安装完成，系统将在 30 秒后重启..."
-sleep 30
-reboot
+
