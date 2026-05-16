@@ -11,7 +11,7 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 
 
 
-sleep 60
+
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/hk1d.sh && bash hk1d.sh
 
 
