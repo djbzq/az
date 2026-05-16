@@ -29,12 +29,12 @@ cat << 'EOF' > /root/config.json
 EOF
 
 # 3. 运行 ddns 测试配置
-echo "👉 3. 正在首次运行 ddns 验证配置..."
-ddns -c config.json --debug
+# echo "👉 3. 正在首次运行 ddns 验证配置..."
+# ddns -c config.json --debug
 
 # 4. 设置 ddns 定时任务
 echo "👉 4. 正在设置系统定时任务（每 3 分钟执行一次）..."
-ddns task --install 3 -c /root/config.json --debug
+ddns task --install 1 -c /root/config.json --debug
 
 echo "========================================="
 echo "    🎉 所有步骤执行完毕，DDNS 服务配置成功！"
