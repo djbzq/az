@@ -15,16 +15,27 @@ curl -#fSL https://ddns.newfuture.cc/install.sh | sh
 echo "👉 2. 正在创建 /root/config.json 配置文件..."
 cat << 'EOF' > /root/config.json
 {
-    "$schema": "https://ddns.newfuture.cc/schema/v4.1.json", 
-    "dns": "dnspod_com",               
-    "id": "4297",                    
-    "token": "5e077017dfce69a2dbd543e1cb0131da",          
-    "index4": ["url:http://api.ipify.cn", "public"], 
-    "index6": "public",                   
-    "ipv4": ["hk2.ewgfrweh.shop"],          
-    "ipv6": ["hk2.ewgfrweh.shop"], 
-    "line": "default",                       
-    "ttl": 120                           
+  "$schema": "https://ddns.newfuture.cc/schema/v4.1.json",
+  "providers": [
+    {
+      "provider": "dnspod_com",
+      "id": "4297",
+      "token": "5e077017dfce69a2dbd543e1cb0131da",
+      "index4": ["url:http://api.ipify.cn", "public"],
+      "ipv4": ["hk1.ewgfrweh.shop"],
+      "line": "default",
+      "ttl": 120
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4297",
+      "token": "5e077017dfce69a2dbd543e1cb0131da",
+      "index6": "public",
+      "ipv6": ["hk1v6.ewgfrweh.shop"],
+      "line": "default",
+      "ttl": 120
+    }
+  ]
 }
 EOF
 
