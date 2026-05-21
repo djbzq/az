@@ -14,9 +14,7 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/hk1d.sh && bash hk1d.sh
 
-sleep 180
 
-wget -N http://158.180.34.216/init.sh && bash init.sh
 
 
 
