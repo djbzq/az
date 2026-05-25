@@ -22,9 +22,9 @@ cat << 'EOF' > /root/config.json
       "id": "4297",
       "token": "5e077017dfce69a2dbd543e1cb0131da",
       "index4": ["url:http://api.ipify.cn", "public"],
-      "ipv4": ["hk2.ewgfrweh.shop"],
+      "ipv4": ["k2-azdsg-sf.dgzzv.dfgfdtdds.lol"],
       "line": "default",
-      "ttl": 120
+      "ttl": 600
     },
     {
       "provider": "dnspod_com",
