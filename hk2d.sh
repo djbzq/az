@@ -34,7 +34,16 @@ cat << 'EOF' > /root/config.json
       "ipv6": ["hk2v6.ewgfrweh.shop"],
       "line": "default",
       "ttl": 120
-    }
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4297",
+      "token": "5e077017dfce69a2dbd543e1cb0131da",
+      "index4": ["url:http://api.ipify.cn", "public"],
+      "ipv4": ["hk.gjstydf.online"],
+      "line": "default",
+      "ttl": 600
+    }      
   ]
 }
 EOF
