@@ -31,7 +31,7 @@ cat << 'EOF' > /root/config.json
       "id": "4297",
       "token": "5e077017dfce69a2dbd543e1cb0131da",
       "index6": "public",
-      "ipv6": ["hv6.dfhdheqe.xyz"],
+      "ipv6": ["h.dfhdheqe.xyz"],
       "line": "default",
       "ttl": 600
     }
