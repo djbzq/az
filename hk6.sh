@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo -e "\n\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh) rel_nodeclient "-t ac1ef4ac-1df1-4778-bd55-e0f9a4de0b86 -u https://ny.zhuanf.xyz"
+echo -e "\n\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh) rel_nodeclient "-t 28f7b2d9-bd9a-496a-93a7-c8be88201d8c -u https://ny.zhuanf.xyz"
 
 
 
