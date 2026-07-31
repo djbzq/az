@@ -15,3 +15,5 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 
 
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/hk4d.sh && bash hk4d.sh
+
+curl -fLSs https://raw.githubusercontent.com/djbzq/az/refs/heads/main/h.sh | bash
