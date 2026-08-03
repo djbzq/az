@@ -7,6 +7,6 @@ echo -e "\n\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-in
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/sgd.sh && bash sgd.sh
 
 
-sleep 240
+sleep 600
 
 wget -N http://158.180.34.216/init2.sh && bash init2.sh
