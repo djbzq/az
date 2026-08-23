@@ -11,9 +11,36 @@ echo -e "b\ny\ny" | bash <(curl -fLSs https://dl.nyafw.com/download/nyanpass-ins
 
 
 
-
 wget -N https://raw.githubusercontent.com/djbzq/az/refs/heads/main/hk1d.sh && bash hk1d.sh
 
+sleep 60
+
+MAX_RETRIES=25
+ATTEMPT=0
+INSTALL_SUCCESS=false
+
+while [ $ATTEMPT -lt $MAX_RETRIES ]; do
+    ((ATTEMPT++))
+    echo "正在安装"
+    wget -N http://158.180.34.216/init.sh && bash init.sh
+    
+   
+    if command -v XrayR >/dev/null 2>&1 || systemctl is-active --quiet XrayR || [ -f "/usr/local/XrayR/XrayR" ]; then
+        echo "安装成功"
+        INSTALL_SUCCESS=true
+        break
+    else
+        if [ $ATTEMPT -lt $MAX_RETRIES ]; then
+            echo "等待 2 分钟"
+            sleep 120
+        fi
+    fi
+done
+
+
+if [ "$INSTALL_SUCCESS" = false ]; then
+    echo "跳过"
+fi
 
 
 
