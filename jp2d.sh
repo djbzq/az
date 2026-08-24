@@ -19,8 +19,8 @@ cat << 'EOF' > /root/config.json
   "providers": [
     {
       "provider": "dnspod_com",
-      "id": "4378",
-      "token": "89580ba3af49c47c758ed67a1ffacc35",
+      "id": "4566",
+      "token": "2621dc8473b80ed94671f5fabfd61775",
       "index4": ["url:https://api4.ipify.org", "public"],
       "ipv4": ["jp.fdgdfgredff.xyz"],
       "line": "default",
@@ -28,8 +28,8 @@ cat << 'EOF' > /root/config.json
     },
     {
       "provider": "dnspod_com",
-      "id": "4378",
-      "token": "89580ba3af49c47c758ed67a1ffacc35",
+      "id": "4566",
+      "token": "2621dc8473b80ed94671f5fabfd61775",
       "index6": "public",
       "ipv6": ["jp.fdgdfgredff.xyz"],
       "line": "default",
