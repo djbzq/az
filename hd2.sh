@@ -34,7 +34,25 @@ cat << 'EOF' > /root/config.json
       "ipv6": ["hggk.khggiytgh.fit"],
       "line": "default",
       "ttl": 600
-    }
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4566",
+      "token": "2621dc8473b80ed94671f5fabfd61775",
+      "index4": ["url:https://api4.ipify.org", "public"],
+      "ipv4": ["hkk.eryeruyfd.xyz"],
+      "line": "default",
+      "ttl": 600
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4566",
+      "token": "2621dc8473b80ed94671f5fabfd61775",
+      "index6": "public",
+      "ipv6": ["hkk.eryeruyfd.xyz"],
+      "line": "default",
+      "ttl": 600
+    }    
   ]
 }
 EOF
