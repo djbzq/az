@@ -22,7 +22,7 @@ cat << 'EOF' > /root/config.json
       "id": "4297",
       "token": "5e077017dfce69a2dbd543e1cb0131da",
       "index4": ["url:https://api4.ipify.org", "public"],
-      "ipv4": ["hk3.ewgfrweh.shop"],
+      "ipv4": ["hk3az.ewgfrweh.shop"],
       "line": "default",
       "ttl": 120
     },
@@ -31,7 +31,7 @@ cat << 'EOF' > /root/config.json
       "id": "4297",
       "token": "5e077017dfce69a2dbd543e1cb0131da",
       "index6": "public",
-      "ipv6": ["hk3v6.ewgfrweh.shop"],
+      "ipv6": ["hk3azv6.ewgfrweh.shop"],
       "line": "default",
       "ttl": 120
     }
