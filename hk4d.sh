@@ -34,6 +34,24 @@ cat << 'EOF' > /root/config.json
       "ipv6": ["hk3azv6.ewgfrweh.shop"],
       "line": "default",
       "ttl": 120
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4565",
+      "token": "4b50d3eaacb1cfefa0c1e42cbcceb541",
+      "index4": ["url:https://api4.ipify.org", "public"],
+      "ipv4": ["hk.dfgerterwe.xyz"],
+      "line": "default",
+      "ttl": 600
+    },
+    {
+      "provider": "dnspod_com",
+      "id": "4565",
+      "token": "4b50d3eaacb1cfefa0c1e42cbcceb541",
+      "index6": "public",
+      "ipv6": ["hk.dfgerterwe.xyz"],
+      "line": "default",
+      "ttl": 600
     }
   ]
 }
